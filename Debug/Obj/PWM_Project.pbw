@@ -1,1360 +1,450 @@
 [
   {
-    "ID": "c:hw_memmap.h@2039@macro@__HW_MEMMAP_H__",
+    "ID": "c:stdio.h@99@macro@_STDIO",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__HW_MEMMAP_H__",
+    "display": "_STDIO",
     "location": {
       "column": "9",
-      "line": "41",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+      "line": "4",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
     },
-    "name": "__HW_MEMMAP_H__",
-    "origin": "user_include",
+    "name": "_STDIO",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:hw_memmap.h@2324@macro@FLASH_BASE",
+    "ID": "c:stdio.h@375@macro@NULL",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "FLASH_BASE",
+    "display": "NULL",
     "location": {
-      "column": "9",
-      "line": "49",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+      "column": "11",
+      "line": "19",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
     },
-    "name": "FLASH_BASE",
-    "origin": "user_include",
+    "name": "NULL",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:hw_memmap.h@2385@macro@SRAM_BASE",
+    "ID": "c:stdio.h@3283@macro@EOF",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "SRAM_BASE",
-    "location": {
-      "column": "9",
-      "line": "50",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "SRAM_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@2445@macro@WATCHDOG0_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "WATCHDOG0_BASE",
-    "location": {
-      "column": "9",
-      "line": "51",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "WATCHDOG0_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@2503@macro@WATCHDOG1_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "WATCHDOG1_BASE",
-    "location": {
-      "column": "9",
-      "line": "52",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "WATCHDOG1_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@2561@macro@GPIO_PORTA_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_PORTA_BASE",
-    "location": {
-      "column": "9",
-      "line": "53",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "GPIO_PORTA_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@2621@macro@GPIO_PORTB_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_PORTB_BASE",
-    "location": {
-      "column": "9",
-      "line": "54",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "GPIO_PORTB_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@2681@macro@GPIO_PORTC_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_PORTC_BASE",
-    "location": {
-      "column": "9",
-      "line": "55",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "GPIO_PORTC_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@2741@macro@GPIO_PORTD_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_PORTD_BASE",
-    "location": {
-      "column": "9",
-      "line": "56",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "GPIO_PORTD_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@2801@macro@SSI0_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SSI0_BASE",
-    "location": {
-      "column": "9",
-      "line": "57",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "SSI0_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@2854@macro@SSI1_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SSI1_BASE",
-    "location": {
-      "column": "9",
-      "line": "58",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "SSI1_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@2907@macro@SSI2_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SSI2_BASE",
-    "location": {
-      "column": "9",
-      "line": "59",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "SSI2_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@2960@macro@SSI3_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SSI3_BASE",
-    "location": {
-      "column": "9",
-      "line": "60",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "SSI3_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@3013@macro@UART0_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "UART0_BASE",
-    "location": {
-      "column": "9",
-      "line": "61",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "UART0_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@3067@macro@UART1_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "UART1_BASE",
-    "location": {
-      "column": "9",
-      "line": "62",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "UART1_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@3121@macro@UART2_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "UART2_BASE",
-    "location": {
-      "column": "9",
-      "line": "63",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "UART2_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@3175@macro@UART3_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "UART3_BASE",
-    "location": {
-      "column": "9",
-      "line": "64",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "UART3_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@3229@macro@UART4_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "UART4_BASE",
-    "location": {
-      "column": "9",
-      "line": "65",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "UART4_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@3283@macro@UART5_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "UART5_BASE",
-    "location": {
-      "column": "9",
-      "line": "66",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "UART5_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@3337@macro@UART6_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "UART6_BASE",
-    "location": {
-      "column": "9",
-      "line": "67",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "UART6_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@3391@macro@UART7_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "UART7_BASE",
-    "location": {
-      "column": "9",
-      "line": "68",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "UART7_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@3445@macro@I2C0_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2C0_BASE",
-    "location": {
-      "column": "9",
-      "line": "69",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "I2C0_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@3498@macro@I2C1_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2C1_BASE",
-    "location": {
-      "column": "9",
-      "line": "70",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "I2C1_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@3551@macro@I2C2_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2C2_BASE",
-    "location": {
-      "column": "9",
-      "line": "71",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "I2C2_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@3604@macro@I2C3_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2C3_BASE",
-    "location": {
-      "column": "9",
-      "line": "72",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "I2C3_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@3657@macro@GPIO_PORTE_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_PORTE_BASE",
-    "location": {
-      "column": "9",
-      "line": "73",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "GPIO_PORTE_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@3717@macro@GPIO_PORTF_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_PORTF_BASE",
-    "location": {
-      "column": "9",
-      "line": "74",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "GPIO_PORTF_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@3777@macro@GPIO_PORTG_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_PORTG_BASE",
-    "location": {
-      "column": "9",
-      "line": "75",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "GPIO_PORTG_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@3837@macro@GPIO_PORTH_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_PORTH_BASE",
-    "location": {
-      "column": "9",
-      "line": "76",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "GPIO_PORTH_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@3897@macro@PWM0_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "PWM0_BASE",
-    "location": {
-      "column": "9",
-      "line": "77",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "PWM0_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@3973@macro@PWM1_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "PWM1_BASE",
-    "location": {
-      "column": "9",
-      "line": "78",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "PWM1_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@4049@macro@QEI0_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "QEI0_BASE",
-    "location": {
-      "column": "9",
-      "line": "79",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "QEI0_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@4102@macro@QEI1_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "QEI1_BASE",
-    "location": {
-      "column": "9",
-      "line": "80",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "QEI1_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@4155@macro@TIMER0_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER0_BASE",
-    "location": {
-      "column": "9",
-      "line": "81",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "TIMER0_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@4210@macro@TIMER1_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER1_BASE",
-    "location": {
-      "column": "9",
-      "line": "82",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "TIMER1_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@4265@macro@TIMER2_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER2_BASE",
-    "location": {
-      "column": "9",
-      "line": "83",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "TIMER2_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@4320@macro@TIMER3_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER3_BASE",
-    "location": {
-      "column": "9",
-      "line": "84",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "TIMER3_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@4375@macro@TIMER4_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER4_BASE",
-    "location": {
-      "column": "9",
-      "line": "85",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "TIMER4_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@4430@macro@TIMER5_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER5_BASE",
-    "location": {
-      "column": "9",
-      "line": "86",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "TIMER5_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@4485@macro@WTIMER0_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "WTIMER0_BASE",
-    "location": {
-      "column": "9",
-      "line": "87",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "WTIMER0_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@4545@macro@WTIMER1_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "WTIMER1_BASE",
-    "location": {
-      "column": "9",
-      "line": "88",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "WTIMER1_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@4605@macro@ADC0_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "ADC0_BASE",
-    "location": {
-      "column": "9",
-      "line": "89",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "ADC0_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@4658@macro@ADC1_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "ADC1_BASE",
-    "location": {
-      "column": "9",
-      "line": "90",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "ADC1_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@4711@macro@COMP_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "COMP_BASE",
-    "location": {
-      "column": "9",
-      "line": "91",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "COMP_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@4778@macro@GPIO_PORTJ_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_PORTJ_BASE",
-    "location": {
-      "column": "9",
-      "line": "92",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "GPIO_PORTJ_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@4838@macro@CAN0_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CAN0_BASE",
-    "location": {
-      "column": "9",
-      "line": "93",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "CAN0_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@4891@macro@CAN1_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CAN1_BASE",
-    "location": {
-      "column": "9",
-      "line": "94",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "CAN1_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@4944@macro@WTIMER2_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "WTIMER2_BASE",
-    "location": {
-      "column": "9",
-      "line": "95",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "WTIMER2_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@5004@macro@WTIMER3_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "WTIMER3_BASE",
-    "location": {
-      "column": "9",
-      "line": "96",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "WTIMER3_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@5064@macro@WTIMER4_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "WTIMER4_BASE",
-    "location": {
-      "column": "9",
-      "line": "97",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "WTIMER4_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@5124@macro@WTIMER5_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "WTIMER5_BASE",
-    "location": {
-      "column": "9",
-      "line": "98",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "WTIMER5_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@5184@macro@USB0_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "USB0_BASE",
-    "location": {
-      "column": "9",
-      "line": "99",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "USB0_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@5249@macro@GPIO_PORTA_AHB_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_PORTA_AHB_BASE",
-    "location": {
-      "column": "9",
-      "line": "100",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "GPIO_PORTA_AHB_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@5322@macro@GPIO_PORTB_AHB_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_PORTB_AHB_BASE",
-    "location": {
-      "column": "9",
-      "line": "101",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "GPIO_PORTB_AHB_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@5395@macro@GPIO_PORTC_AHB_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_PORTC_AHB_BASE",
-    "location": {
-      "column": "9",
-      "line": "102",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "GPIO_PORTC_AHB_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@5468@macro@GPIO_PORTD_AHB_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_PORTD_AHB_BASE",
+    "display": "EOF",
     "location": {
       "column": "9",
       "line": "103",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
     },
-    "name": "GPIO_PORTD_AHB_BASE",
-    "origin": "user_include",
+    "name": "EOF",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:hw_memmap.h@5541@macro@GPIO_PORTE_AHB_BASE",
+    "ID": "c:stdio.h@3315@macro@SEEK_SET",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_PORTE_AHB_BASE",
-    "location": {
-      "column": "9",
-      "line": "104",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "GPIO_PORTE_AHB_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@5614@macro@GPIO_PORTF_AHB_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_PORTF_AHB_BASE",
+    "display": "SEEK_SET",
     "location": {
       "column": "9",
       "line": "105",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
     },
-    "name": "GPIO_PORTF_AHB_BASE",
-    "origin": "user_include",
+    "name": "SEEK_SET",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:hw_memmap.h@5687@macro@GPIO_PORTG_AHB_BASE",
+    "ID": "c:stdio.h@3342@macro@SEEK_CUR",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_PORTG_AHB_BASE",
+    "display": "SEEK_CUR",
     "location": {
       "column": "9",
       "line": "106",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
     },
-    "name": "GPIO_PORTG_AHB_BASE",
-    "origin": "user_include",
+    "name": "SEEK_CUR",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:hw_memmap.h@5760@macro@GPIO_PORTH_AHB_BASE",
+    "ID": "c:stdio.h@3369@macro@SEEK_END",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_PORTH_AHB_BASE",
+    "display": "SEEK_END",
     "location": {
       "column": "9",
       "line": "107",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
     },
-    "name": "GPIO_PORTH_AHB_BASE",
-    "origin": "user_include",
+    "name": "SEEK_END",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:hw_memmap.h@5833@macro@GPIO_PORTJ_AHB_BASE",
-    "What": "MacroDef",
+    "ID": "c:stdio.h@T@fpos_t",
+    "What": "Typedef",
     "defdec": "Def",
-    "display": "GPIO_PORTJ_AHB_BASE",
+    "display": "_Fpost",
     "location": {
-      "column": "9",
-      "line": "108",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "GPIO_PORTJ_AHB_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@5906@macro@GPIO_PORTK_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_PORTK_BASE",
-    "location": {
-      "column": "9",
-      "line": "109",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "GPIO_PORTK_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@5966@macro@GPIO_PORTL_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_PORTL_BASE",
-    "location": {
-      "column": "9",
+      "column": "16",
       "line": "110",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
     },
-    "name": "GPIO_PORTL_BASE",
-    "origin": "user_include",
+    "name": "fpos_t",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:hw_memmap.h@6026@macro@GPIO_PORTM_BASE",
+    "ID": "c:stdio.h@3737@macro@__PRINTFPR",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_PORTM_BASE",
+    "display": "__PRINTFPR",
     "location": {
-      "column": "9",
-      "line": "111",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "GPIO_PORTM_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@6086@macro@GPIO_PORTN_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_PORTN_BASE",
-    "location": {
-      "column": "9",
-      "line": "112",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "GPIO_PORTN_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@6146@macro@GPIO_PORTP_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_PORTP_BASE",
-    "location": {
-      "column": "9",
-      "line": "113",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "GPIO_PORTP_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@6206@macro@GPIO_PORTQ_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_PORTQ_BASE",
-    "location": {
-      "column": "9",
-      "line": "114",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "GPIO_PORTQ_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@6266@macro@GPIO_PORTR_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_PORTR_BASE",
-    "location": {
-      "column": "9",
-      "line": "115",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "GPIO_PORTR_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@6400@macro@GPIO_PORTS_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_PORTS_BASE",
-    "location": {
-      "column": "9",
-      "line": "117",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "GPIO_PORTS_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@6534@macro@GPIO_PORTT_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_PORTT_BASE",
-    "location": {
-      "column": "9",
-      "line": "119",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "GPIO_PORTT_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@6668@macro@EEPROM_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "EEPROM_BASE",
-    "location": {
-      "column": "9",
-      "line": "121",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "EEPROM_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@6730@macro@ONEWIRE0_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "ONEWIRE0_BASE",
-    "location": {
-      "column": "9",
-      "line": "122",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "ONEWIRE0_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@6799@macro@I2C8_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2C8_BASE",
-    "location": {
-      "column": "9",
-      "line": "123",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "I2C8_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@6852@macro@I2C9_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2C9_BASE",
-    "location": {
-      "column": "9",
-      "line": "124",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "I2C9_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@6905@macro@I2C4_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2C4_BASE",
-    "location": {
-      "column": "9",
-      "line": "125",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "I2C4_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@6958@macro@I2C5_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2C5_BASE",
-    "location": {
-      "column": "9",
+      "column": "11",
       "line": "126",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
     },
-    "name": "I2C5_BASE",
-    "origin": "user_include",
+    "name": "__PRINTFPR",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:hw_memmap.h@7011@macro@I2C6_BASE",
+    "ID": "c:stdio.h@3934@macro@__SCANFPR",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "I2C6_BASE",
+    "display": "__SCANFPR",
     "location": {
-      "column": "9",
-      "line": "127",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "I2C6_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@7064@macro@I2C7_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2C7_BASE",
-    "location": {
-      "column": "9",
-      "line": "128",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "I2C7_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@7117@macro@EPI0_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "EPI0_BASE",
-    "location": {
-      "column": "9",
+      "column": "11",
       "line": "129",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
     },
-    "name": "EPI0_BASE",
-    "origin": "user_include",
+    "name": "__SCANFPR",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:hw_memmap.h@7170@macro@TIMER6_BASE",
+    "ID": "c:stdio.h@4131@macro@__SCANFSPR",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "TIMER6_BASE",
+    "display": "__SCANFSPR",
     "location": {
-      "column": "9",
-      "line": "130",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "TIMER6_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@7241@macro@TIMER7_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER7_BASE",
-    "location": {
-      "column": "9",
-      "line": "131",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "TIMER7_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@7312@macro@EMAC0_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "EMAC0_BASE",
-    "location": {
-      "column": "9",
+      "column": "11",
       "line": "132",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
     },
-    "name": "EMAC0_BASE",
-    "origin": "user_include",
+    "name": "__SCANFSPR",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:hw_memmap.h@7380@macro@SYSEXC_BASE",
+    "ID": "c:stdio.h@4448@macro@__DEPREC_PRINTF",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "SYSEXC_BASE",
+    "display": "__DEPREC_PRINTF",
     "location": {
       "column": "9",
-      "line": "133",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+      "line": "141",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
     },
-    "name": "SYSEXC_BASE",
-    "origin": "user_include",
+    "name": "__DEPREC_PRINTF",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:hw_memmap.h@7452@macro@HIB_BASE",
+    "ID": "c:stdio.h@4493@macro@__DEPREC_SCANF",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "HIB_BASE",
-    "location": {
-      "column": "9",
-      "line": "134",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "HIB_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@7519@macro@FLASH_CTRL_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "FLASH_CTRL_BASE",
-    "location": {
-      "column": "9",
-      "line": "135",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "FLASH_CTRL_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@7584@macro@SYSCTL_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SYSCTL_BASE",
-    "location": {
-      "column": "9",
-      "line": "136",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "SYSCTL_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@7647@macro@UDMA_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "UDMA_BASE",
-    "location": {
-      "column": "9",
-      "line": "137",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "UDMA_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@7711@macro@CCM0_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CCM0_BASE",
-    "location": {
-      "column": "9",
-      "line": "138",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "CCM0_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@7791@macro@SHAMD5_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SHAMD5_BASE",
-    "location": {
-      "column": "9",
-      "line": "139",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "SHAMD5_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@7859@macro@AES_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "AES_BASE",
-    "location": {
-      "column": "9",
-      "line": "140",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
-    },
-    "name": "AES_BASE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_memmap.h@8002@macro@DES_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "DES_BASE",
+    "display": "__DEPREC_SCANF",
     "location": {
       "column": "9",
       "line": "142",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
     },
-    "name": "DES_BASE",
-    "origin": "user_include",
+    "name": "__DEPREC_SCANF",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:hw_memmap.h@8141@macro@LCD0_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LCD0_BASE",
+    "ID": "c:@F@__gets",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * __gets(char *, int)",
     "location": {
-      "column": "9",
-      "line": "144",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+      "column": "37",
+      "line": "197",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
     },
-    "name": "LCD0_BASE",
-    "origin": "user_include",
+    "name": "__gets",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:hw_memmap.h@8204@macro@ITM_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "ITM_BASE",
+    "ID": "c:@F@gets",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * gets(char *)",
     "location": {
-      "column": "9",
-      "line": "145",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+      "column": "37",
+      "line": "198",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
     },
-    "name": "ITM_BASE",
-    "origin": "user_include",
+    "name": "gets",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:hw_memmap.h@8284@macro@DWT_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "DWT_BASE",
+    "ID": "c:@F@perror",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void perror(const char *)",
     "location": {
-      "column": "9",
-      "line": "146",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+      "column": "39",
+      "line": "200",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
     },
-    "name": "DWT_BASE",
-    "origin": "user_include",
+    "name": "perror",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:hw_memmap.h@8358@macro@FPB_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "FPB_BASE",
+    "ID": "c:@F@printf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int printf(const char *restrict, ...)",
     "location": {
-      "column": "9",
-      "line": "147",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+      "column": "39",
+      "line": "201",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
     },
-    "name": "FPB_BASE",
-    "origin": "user_include",
+    "name": "printf",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:hw_memmap.h@8433@macro@NVIC_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "NVIC_BASE",
+    "ID": "c:@F@puts",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int puts(const char *)",
     "location": {
-      "column": "9",
-      "line": "148",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+      "column": "39",
+      "line": "202",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
     },
-    "name": "NVIC_BASE",
-    "origin": "user_include",
+    "name": "puts",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:hw_memmap.h@8512@macro@TPIU_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TPIU_BASE",
+    "ID": "c:@F@scanf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int scanf(const char *restrict, ...)",
     "location": {
-      "column": "9",
-      "line": "149",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+      "column": "39",
+      "line": "203",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
     },
-    "name": "TPIU_BASE",
-    "origin": "user_include",
+    "name": "scanf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@sprintf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int sprintf(char *restrict, const char *restrict, ...)",
+    "location": {
+      "column": "39",
+      "line": "204",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "sprintf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@sscanf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int sscanf(const char *restrict, const char *restrict, ...)",
+    "location": {
+      "column": "39",
+      "line": "206",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "sscanf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__ungetchar",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int __ungetchar(int)",
+    "location": {
+      "column": "39",
+      "line": "209",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "__ungetchar",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vprintf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int vprintf(const char *restrict, __Va_list)",
+    "location": {
+      "column": "39",
+      "line": "210",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "vprintf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vscanf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int vscanf(const char *restrict, __Va_list)",
+    "location": {
+      "column": "37",
+      "line": "213",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "vscanf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vsscanf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int vsscanf(const char *restrict, const char *restrict, __Va_list)",
+    "location": {
+      "column": "37",
+      "line": "214",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "vsscanf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vsprintf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int vsprintf(char *restrict, const char *restrict, __Va_list)",
+    "location": {
+      "column": "37",
+      "line": "217",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "vsprintf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__write_array",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "size_t __write_array(const void *, size_t, size_t)",
+    "location": {
+      "column": "35",
+      "line": "220",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "__write_array",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@snprintf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int snprintf(char *restrict, size_t, const char *restrict, ...)",
+    "location": {
+      "column": "38",
+      "line": "222",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "snprintf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vsnprintf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int vsnprintf(char *restrict, size_t, const char *restrict, __Va_list)",
+    "location": {
+      "column": "38",
+      "line": "224",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "vsnprintf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@getchar",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int getchar(void)",
+    "location": {
+      "column": "35",
+      "line": "229",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "getchar",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@putchar",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int putchar(int)",
+    "location": {
+      "column": "35",
+      "line": "230",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "putchar",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@remove",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int remove(const char *)",
+    "location": {
+      "column": "35",
+      "line": "233",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "remove",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@rename",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int rename(const char *, const char *)",
+    "location": {
+      "column": "35",
+      "line": "234",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "rename",
+    "origin": "system_include",
     "scope": null
   },
   {
@@ -5227,394 +4317,86 @@
     "scope": null
   },
   {
-    "ID": "c:DLib_Defaults.h@1169@macro@_DLIB_DEFAULTS_H",
+    "ID": "c:ysizet.h@111@macro@_YSIZET_H",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_DLIB_DEFAULTS_H",
+    "display": "_YSIZET_H",
     "location": {
       "column": "9",
-      "line": "31",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
+      "line": "5",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\ysizet.h"
     },
-    "name": "_DLIB_DEFAULTS_H",
+    "name": "_YSIZET_H",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:DLib_Defaults.h@3035@macro@_DLIB_FILE_DESCRIPTOR",
+    "ID": "c:ysizet.h@277@macro@_SIZE_T",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_DLIB_FILE_DESCRIPTOR",
+    "display": "_SIZE_T",
     "location": {
       "column": "11",
-      "line": "85",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
+      "line": "16",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\ysizet.h"
     },
-    "name": "_DLIB_FILE_DESCRIPTOR",
+    "name": "_SIZE_T",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:DLib_Defaults.h@3448@macro@_DLIB_STDOUT_USES_STATIC_BUFFER",
+    "ID": "c:ysizet.h@296@macro@_STD_USING_SIZE_T",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_DLIB_STDOUT_USES_STATIC_BUFFER",
+    "display": "_STD_USING_SIZE_T",
     "location": {
       "column": "11",
-      "line": "100",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
+      "line": "17",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\ysizet.h"
     },
-    "name": "_DLIB_STDOUT_USES_STATIC_BUFFER",
+    "name": "_STD_USING_SIZE_T",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:DLib_Defaults.h@4471@macro@_DLIB_FULL_LOCALE_SUPPORT",
-    "What": "MacroDef",
+    "ID": "c:ysizet.h@T@size_t",
+    "What": "Typedef",
     "defdec": "Def",
-    "display": "_DLIB_FULL_LOCALE_SUPPORT",
+    "display": "_Sizet",
     "location": {
-      "column": "11",
-      "line": "127",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
+      "column": "18",
+      "line": "18",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\ysizet.h"
     },
-    "name": "_DLIB_FULL_LOCALE_SUPPORT",
+    "name": "size_t",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:DLib_Defaults.h@4649@macro@_DLIB_LOCALE_TABLE_MEMORY",
+    "ID": "c:ysizet.h@359@macro@__DATA_PTR_MEM_HELPER1__",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_DLIB_LOCALE_TABLE_MEMORY",
+    "display": "__DATA_PTR_MEM_HELPER1__",
     "location": {
-      "column": "11",
-      "line": "135",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
+      "column": "9",
+      "line": "21",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\ysizet.h"
     },
-    "name": "_DLIB_LOCALE_TABLE_MEMORY",
+    "name": "__DATA_PTR_MEM_HELPER1__",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:DLib_Defaults.h@5493@macro@_DLIB_FORMATTED_MULTIBYTE",
-    "What": "MacroDef",
+    "ID": "c:ysizet.h@T@__data_size_t",
+    "What": "Typedef",
     "defdec": "Def",
-    "display": "_DLIB_FORMATTED_MULTIBYTE",
+    "display": "unsigned int",
     "location": {
-      "column": "11",
-      "line": "165",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
+      "column": "1",
+      "line": "23",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\ysizet.h"
     },
-    "name": "_DLIB_FORMATTED_MULTIBYTE",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Defaults.h@6974@macro@_DLIB_PRINTF_MULTIBYTE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_PRINTF_MULTIBYTE",
-    "location": {
-      "column": "11",
-      "line": "213",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
-    },
-    "name": "_DLIB_PRINTF_MULTIBYTE",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Defaults.h@7889@macro@_DLIB_PRINTF_INT_TYPE_IS_INT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_PRINTF_INT_TYPE_IS_INT",
-    "location": {
-      "column": "11",
-      "line": "238",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
-    },
-    "name": "_DLIB_PRINTF_INT_TYPE_IS_INT",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Defaults.h@8492@macro@_DLIB_PRINTF_INT_TYPE_IS_LONG",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_PRINTF_INT_TYPE_IS_LONG",
-    "location": {
-      "column": "11",
-      "line": "255",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
-    },
-    "name": "_DLIB_PRINTF_INT_TYPE_IS_LONG",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Defaults.h@9338@macro@_DLIB_PRINTF_CHAR_BY_CHAR",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_PRINTF_CHAR_BY_CHAR",
-    "location": {
-      "column": "11",
-      "line": "277",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
-    },
-    "name": "_DLIB_PRINTF_CHAR_BY_CHAR",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Defaults.h@10025@macro@_DLIB_SCANF_MULTIBYTE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_SCANF_MULTIBYTE",
-    "location": {
-      "column": "11",
-      "line": "301",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
-    },
-    "name": "_DLIB_SCANF_MULTIBYTE",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Defaults.h@10673@macro@_DLIB_STRFTIME_MULTIBYTE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_STRFTIME_MULTIBYTE",
-    "location": {
-      "column": "11",
-      "line": "321",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
-    },
-    "name": "_DLIB_STRFTIME_MULTIBYTE",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Defaults.h@11257@macro@_DLIB_QSORT_USE_BUBBLE_SORT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_QSORT_USE_BUBBLE_SORT",
-    "location": {
-      "column": "11",
-      "line": "340",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
-    },
-    "name": "_DLIB_QSORT_USE_BUBBLE_SORT",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Defaults.h@11840@macro@_DLIB_RAND_USE_SIMPLE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_RAND_USE_SIMPLE",
-    "location": {
-      "column": "11",
-      "line": "365",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
-    },
-    "name": "_DLIB_RAND_USE_SIMPLE",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Defaults.h@12026@macro@_DLIB_DEBUG_BREAK_FUNCTION_ATTRIBUTE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_DEBUG_BREAK_FUNCTION_ATTRIBUTE",
-    "location": {
-      "column": "11",
-      "line": "374",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
-    },
-    "name": "_DLIB_DEBUG_BREAK_FUNCTION_ATTRIBUTE",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Defaults.h@12745@macro@_DLIB_DATA_ATTR",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_DATA_ATTR",
-    "location": {
-      "column": "11",
-      "line": "390",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
-    },
-    "name": "_DLIB_DATA_ATTR",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Defaults.h@12836@macro@_DLIB_CONST_ATTR",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_CONST_ATTR",
-    "location": {
-      "column": "13",
-      "line": "395",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
-    },
-    "name": "_DLIB_CONST_ATTR",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Defaults.h@13453@macro@_DLIB_MBSTATET_USES_UNSIGNED_LONG",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_MBSTATET_USES_UNSIGNED_LONG",
-    "location": {
-      "column": "15",
-      "line": "421",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
-    },
-    "name": "_DLIB_MBSTATET_USES_UNSIGNED_LONG",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Defaults.h@13636@macro@_DLIB_TIME_USES_LONG",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_TIME_USES_LONG",
-    "location": {
-      "column": "15",
-      "line": "429",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
-    },
-    "name": "_DLIB_TIME_USES_LONG",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Defaults.h@14183@macro@_DLIB_AEABI_DIFUNC_CONTAINS_OFFSETS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_AEABI_DIFUNC_CONTAINS_OFFSETS",
-    "location": {
-      "column": "13",
-      "line": "443",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
-    },
-    "name": "_DLIB_AEABI_DIFUNC_CONTAINS_OFFSETS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Defaults.h@14573@macro@_DLIB_ONLY_USE_CXA_FUNCTIONS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ONLY_USE_CXA_FUNCTIONS",
-    "location": {
-      "column": "13",
-      "line": "458",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
-    },
-    "name": "_DLIB_ONLY_USE_CXA_FUNCTIONS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Defaults.h@15142@macro@_DLIB_FAST_FMA",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_FAST_FMA",
-    "location": {
-      "column": "11",
-      "line": "485",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
-    },
-    "name": "_DLIB_FAST_FMA",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Defaults.h@16042@macro@_DLIB_INCLUDE_DLMALLOC_ALTERNATIVE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_INCLUDE_DLMALLOC_ALTERNATIVE",
-    "location": {
-      "column": "13",
-      "line": "515",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
-    },
-    "name": "_DLIB_INCLUDE_DLMALLOC_ALTERNATIVE",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Defaults.h@16406@macro@_DLIB_TIME_ALLOW_64",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_TIME_ALLOW_64",
-    "location": {
-      "column": "13",
-      "line": "537",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
-    },
-    "name": "_DLIB_TIME_ALLOW_64",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Defaults.h@16609@macro@_DLIB_TIME_USES_64_DEFAULT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_TIME_USES_64_DEFAULT",
-    "location": {
-      "column": "11",
-      "line": "551",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
-    },
-    "name": "_DLIB_TIME_USES_64_DEFAULT",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Defaults.h@16863@macro@_DLIB_ALLOW_LARGE_CONSTANT_TABLES_FOR_MATH",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ALLOW_LARGE_CONSTANT_TABLES_FOR_MATH",
-    "location": {
-      "column": "11",
-      "line": "562",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
-    },
-    "name": "_DLIB_ALLOW_LARGE_CONSTANT_TABLES_FOR_MATH",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Defaults.h@17263@macro@__WEAK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__WEAK",
-    "location": {
-      "column": "11",
-      "line": "579",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
-    },
-    "name": "__WEAK",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Defaults.h@17318@macro@__WEAK_DEFS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__WEAK_DEFS",
-    "location": {
-      "column": "11",
-      "line": "580",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
-    },
-    "name": "__WEAK_DEFS",
+    "name": "__data_size_t",
     "origin": "system_include",
     "scope": null
   },
@@ -11180,7 +9962,7 @@
     "ID": "c:@F@SysCtlPeripheralPresent",
     "What": "Function",
     "defdec": "Dec",
-    "display": "_Bool SysCtlPeripheralPresent(uint32_t)",
+    "display": "bool SysCtlPeripheralPresent(uint32_t)",
     "location": {
       "column": "13",
       "line": "585",
@@ -11194,7 +9976,7 @@
     "ID": "c:@F@SysCtlPeripheralPresent",
     "What": "Function",
     "defdec": "Dec",
-    "display": "bool SysCtlPeripheralPresent(uint32_t)",
+    "display": "_Bool SysCtlPeripheralPresent(uint32_t)",
     "location": {
       "column": "13",
       "line": "585",
@@ -11208,7 +9990,7 @@
     "ID": "c:@F@SysCtlPeripheralReady",
     "What": "Function",
     "defdec": "Dec",
-    "display": "_Bool SysCtlPeripheralReady(uint32_t)",
+    "display": "bool SysCtlPeripheralReady(uint32_t)",
     "location": {
       "column": "13",
       "line": "586",
@@ -11222,7 +10004,7 @@
     "ID": "c:@F@SysCtlPeripheralReady",
     "What": "Function",
     "defdec": "Dec",
-    "display": "bool SysCtlPeripheralReady(uint32_t)",
+    "display": "_Bool SysCtlPeripheralReady(uint32_t)",
     "location": {
       "column": "13",
       "line": "586",
@@ -12076,7 +10858,7 @@
     "ID": "c:@F@SysCtlVCOGet",
     "What": "Function",
     "defdec": "Dec",
-    "display": "_Bool SysCtlVCOGet(uint32_t, uint32_t *)",
+    "display": "bool SysCtlVCOGet(uint32_t, uint32_t *)",
     "location": {
       "column": "13",
       "line": "645",
@@ -12090,13 +10872,1427 @@
     "ID": "c:@F@SysCtlVCOGet",
     "What": "Function",
     "defdec": "Dec",
-    "display": "bool SysCtlVCOGet(uint32_t, uint32_t *)",
+    "display": "_Bool SysCtlVCOGet(uint32_t, uint32_t *)",
     "location": {
       "column": "13",
       "line": "645",
       "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\driverlib\\sysctl.h"
     },
     "name": "SysCtlVCOGet",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@LED_D1",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "LED_D1",
+    "location": {
+      "column": "9",
+      "line": "10",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\Projects\\PWM_Project\\src\\PWM_Project.c"
+    },
+    "name": "LED_D1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SysTick_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SysTick_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "12",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\Projects\\PWM_Project\\src\\PWM_Project.c"
+    },
+    "name": "SysTick_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "17",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\Projects\\PWM_Project\\src\\PWM_Project.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:PWM_Project.c@3058@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "7",
+      "line": "66",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\Projects\\PWM_Project\\src\\PWM_Project.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@2039@macro@__HW_MEMMAP_H__",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__HW_MEMMAP_H__",
+    "location": {
+      "column": "9",
+      "line": "41",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "__HW_MEMMAP_H__",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@2324@macro@FLASH_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FLASH_BASE",
+    "location": {
+      "column": "9",
+      "line": "49",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "FLASH_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@2385@macro@SRAM_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SRAM_BASE",
+    "location": {
+      "column": "9",
+      "line": "50",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "SRAM_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@2445@macro@WATCHDOG0_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "WATCHDOG0_BASE",
+    "location": {
+      "column": "9",
+      "line": "51",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "WATCHDOG0_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@2503@macro@WATCHDOG1_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "WATCHDOG1_BASE",
+    "location": {
+      "column": "9",
+      "line": "52",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "WATCHDOG1_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@2561@macro@GPIO_PORTA_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTA_BASE",
+    "location": {
+      "column": "9",
+      "line": "53",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "GPIO_PORTA_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@2621@macro@GPIO_PORTB_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTB_BASE",
+    "location": {
+      "column": "9",
+      "line": "54",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "GPIO_PORTB_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@2681@macro@GPIO_PORTC_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTC_BASE",
+    "location": {
+      "column": "9",
+      "line": "55",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "GPIO_PORTC_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@2741@macro@GPIO_PORTD_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTD_BASE",
+    "location": {
+      "column": "9",
+      "line": "56",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "GPIO_PORTD_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@2801@macro@SSI0_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SSI0_BASE",
+    "location": {
+      "column": "9",
+      "line": "57",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "SSI0_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@2854@macro@SSI1_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SSI1_BASE",
+    "location": {
+      "column": "9",
+      "line": "58",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "SSI1_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@2907@macro@SSI2_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SSI2_BASE",
+    "location": {
+      "column": "9",
+      "line": "59",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "SSI2_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@2960@macro@SSI3_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SSI3_BASE",
+    "location": {
+      "column": "9",
+      "line": "60",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "SSI3_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@3013@macro@UART0_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART0_BASE",
+    "location": {
+      "column": "9",
+      "line": "61",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "UART0_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@3067@macro@UART1_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART1_BASE",
+    "location": {
+      "column": "9",
+      "line": "62",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "UART1_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@3121@macro@UART2_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART2_BASE",
+    "location": {
+      "column": "9",
+      "line": "63",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "UART2_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@3175@macro@UART3_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART3_BASE",
+    "location": {
+      "column": "9",
+      "line": "64",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "UART3_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@3229@macro@UART4_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART4_BASE",
+    "location": {
+      "column": "9",
+      "line": "65",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "UART4_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@3283@macro@UART5_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART5_BASE",
+    "location": {
+      "column": "9",
+      "line": "66",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "UART5_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@3337@macro@UART6_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART6_BASE",
+    "location": {
+      "column": "9",
+      "line": "67",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "UART6_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@3391@macro@UART7_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART7_BASE",
+    "location": {
+      "column": "9",
+      "line": "68",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "UART7_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@3445@macro@I2C0_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C0_BASE",
+    "location": {
+      "column": "9",
+      "line": "69",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "I2C0_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@3498@macro@I2C1_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C1_BASE",
+    "location": {
+      "column": "9",
+      "line": "70",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "I2C1_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@3551@macro@I2C2_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C2_BASE",
+    "location": {
+      "column": "9",
+      "line": "71",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "I2C2_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@3604@macro@I2C3_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C3_BASE",
+    "location": {
+      "column": "9",
+      "line": "72",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "I2C3_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@3657@macro@GPIO_PORTE_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTE_BASE",
+    "location": {
+      "column": "9",
+      "line": "73",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "GPIO_PORTE_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@3717@macro@GPIO_PORTF_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTF_BASE",
+    "location": {
+      "column": "9",
+      "line": "74",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "GPIO_PORTF_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@3777@macro@GPIO_PORTG_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTG_BASE",
+    "location": {
+      "column": "9",
+      "line": "75",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "GPIO_PORTG_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@3837@macro@GPIO_PORTH_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTH_BASE",
+    "location": {
+      "column": "9",
+      "line": "76",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "GPIO_PORTH_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@3897@macro@PWM0_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PWM0_BASE",
+    "location": {
+      "column": "9",
+      "line": "77",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "PWM0_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@3973@macro@PWM1_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PWM1_BASE",
+    "location": {
+      "column": "9",
+      "line": "78",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "PWM1_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@4049@macro@QEI0_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "QEI0_BASE",
+    "location": {
+      "column": "9",
+      "line": "79",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "QEI0_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@4102@macro@QEI1_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "QEI1_BASE",
+    "location": {
+      "column": "9",
+      "line": "80",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "QEI1_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@4155@macro@TIMER0_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER0_BASE",
+    "location": {
+      "column": "9",
+      "line": "81",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "TIMER0_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@4210@macro@TIMER1_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER1_BASE",
+    "location": {
+      "column": "9",
+      "line": "82",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "TIMER1_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@4265@macro@TIMER2_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER2_BASE",
+    "location": {
+      "column": "9",
+      "line": "83",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "TIMER2_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@4320@macro@TIMER3_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER3_BASE",
+    "location": {
+      "column": "9",
+      "line": "84",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "TIMER3_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@4375@macro@TIMER4_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER4_BASE",
+    "location": {
+      "column": "9",
+      "line": "85",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "TIMER4_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@4430@macro@TIMER5_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER5_BASE",
+    "location": {
+      "column": "9",
+      "line": "86",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "TIMER5_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@4485@macro@WTIMER0_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "WTIMER0_BASE",
+    "location": {
+      "column": "9",
+      "line": "87",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "WTIMER0_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@4545@macro@WTIMER1_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "WTIMER1_BASE",
+    "location": {
+      "column": "9",
+      "line": "88",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "WTIMER1_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@4605@macro@ADC0_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_BASE",
+    "location": {
+      "column": "9",
+      "line": "89",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "ADC0_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@4658@macro@ADC1_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC1_BASE",
+    "location": {
+      "column": "9",
+      "line": "90",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "ADC1_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@4711@macro@COMP_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "COMP_BASE",
+    "location": {
+      "column": "9",
+      "line": "91",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "COMP_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@4778@macro@GPIO_PORTJ_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTJ_BASE",
+    "location": {
+      "column": "9",
+      "line": "92",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "GPIO_PORTJ_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@4838@macro@CAN0_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CAN0_BASE",
+    "location": {
+      "column": "9",
+      "line": "93",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "CAN0_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@4891@macro@CAN1_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CAN1_BASE",
+    "location": {
+      "column": "9",
+      "line": "94",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "CAN1_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@4944@macro@WTIMER2_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "WTIMER2_BASE",
+    "location": {
+      "column": "9",
+      "line": "95",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "WTIMER2_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@5004@macro@WTIMER3_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "WTIMER3_BASE",
+    "location": {
+      "column": "9",
+      "line": "96",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "WTIMER3_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@5064@macro@WTIMER4_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "WTIMER4_BASE",
+    "location": {
+      "column": "9",
+      "line": "97",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "WTIMER4_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@5124@macro@WTIMER5_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "WTIMER5_BASE",
+    "location": {
+      "column": "9",
+      "line": "98",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "WTIMER5_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@5184@macro@USB0_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "USB0_BASE",
+    "location": {
+      "column": "9",
+      "line": "99",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "USB0_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@5249@macro@GPIO_PORTA_AHB_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTA_AHB_BASE",
+    "location": {
+      "column": "9",
+      "line": "100",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "GPIO_PORTA_AHB_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@5322@macro@GPIO_PORTB_AHB_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTB_AHB_BASE",
+    "location": {
+      "column": "9",
+      "line": "101",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "GPIO_PORTB_AHB_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@5395@macro@GPIO_PORTC_AHB_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTC_AHB_BASE",
+    "location": {
+      "column": "9",
+      "line": "102",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "GPIO_PORTC_AHB_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@5468@macro@GPIO_PORTD_AHB_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTD_AHB_BASE",
+    "location": {
+      "column": "9",
+      "line": "103",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "GPIO_PORTD_AHB_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@5541@macro@GPIO_PORTE_AHB_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTE_AHB_BASE",
+    "location": {
+      "column": "9",
+      "line": "104",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "GPIO_PORTE_AHB_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@5614@macro@GPIO_PORTF_AHB_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTF_AHB_BASE",
+    "location": {
+      "column": "9",
+      "line": "105",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "GPIO_PORTF_AHB_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@5687@macro@GPIO_PORTG_AHB_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTG_AHB_BASE",
+    "location": {
+      "column": "9",
+      "line": "106",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "GPIO_PORTG_AHB_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@5760@macro@GPIO_PORTH_AHB_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTH_AHB_BASE",
+    "location": {
+      "column": "9",
+      "line": "107",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "GPIO_PORTH_AHB_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@5833@macro@GPIO_PORTJ_AHB_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTJ_AHB_BASE",
+    "location": {
+      "column": "9",
+      "line": "108",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "GPIO_PORTJ_AHB_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@5906@macro@GPIO_PORTK_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTK_BASE",
+    "location": {
+      "column": "9",
+      "line": "109",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "GPIO_PORTK_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@5966@macro@GPIO_PORTL_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTL_BASE",
+    "location": {
+      "column": "9",
+      "line": "110",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "GPIO_PORTL_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@6026@macro@GPIO_PORTM_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTM_BASE",
+    "location": {
+      "column": "9",
+      "line": "111",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "GPIO_PORTM_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@6086@macro@GPIO_PORTN_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTN_BASE",
+    "location": {
+      "column": "9",
+      "line": "112",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "GPIO_PORTN_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@6146@macro@GPIO_PORTP_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTP_BASE",
+    "location": {
+      "column": "9",
+      "line": "113",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "GPIO_PORTP_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@6206@macro@GPIO_PORTQ_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTQ_BASE",
+    "location": {
+      "column": "9",
+      "line": "114",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "GPIO_PORTQ_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@6266@macro@GPIO_PORTR_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTR_BASE",
+    "location": {
+      "column": "9",
+      "line": "115",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "GPIO_PORTR_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@6400@macro@GPIO_PORTS_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTS_BASE",
+    "location": {
+      "column": "9",
+      "line": "117",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "GPIO_PORTS_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@6534@macro@GPIO_PORTT_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTT_BASE",
+    "location": {
+      "column": "9",
+      "line": "119",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "GPIO_PORTT_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@6668@macro@EEPROM_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "EEPROM_BASE",
+    "location": {
+      "column": "9",
+      "line": "121",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "EEPROM_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@6730@macro@ONEWIRE0_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ONEWIRE0_BASE",
+    "location": {
+      "column": "9",
+      "line": "122",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "ONEWIRE0_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@6799@macro@I2C8_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C8_BASE",
+    "location": {
+      "column": "9",
+      "line": "123",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "I2C8_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@6852@macro@I2C9_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C9_BASE",
+    "location": {
+      "column": "9",
+      "line": "124",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "I2C9_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@6905@macro@I2C4_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C4_BASE",
+    "location": {
+      "column": "9",
+      "line": "125",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "I2C4_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@6958@macro@I2C5_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C5_BASE",
+    "location": {
+      "column": "9",
+      "line": "126",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "I2C5_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@7011@macro@I2C6_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C6_BASE",
+    "location": {
+      "column": "9",
+      "line": "127",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "I2C6_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@7064@macro@I2C7_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C7_BASE",
+    "location": {
+      "column": "9",
+      "line": "128",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "I2C7_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@7117@macro@EPI0_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "EPI0_BASE",
+    "location": {
+      "column": "9",
+      "line": "129",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "EPI0_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@7170@macro@TIMER6_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER6_BASE",
+    "location": {
+      "column": "9",
+      "line": "130",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "TIMER6_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@7241@macro@TIMER7_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER7_BASE",
+    "location": {
+      "column": "9",
+      "line": "131",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "TIMER7_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@7312@macro@EMAC0_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "EMAC0_BASE",
+    "location": {
+      "column": "9",
+      "line": "132",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "EMAC0_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@7380@macro@SYSEXC_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SYSEXC_BASE",
+    "location": {
+      "column": "9",
+      "line": "133",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "SYSEXC_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@7452@macro@HIB_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HIB_BASE",
+    "location": {
+      "column": "9",
+      "line": "134",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "HIB_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@7519@macro@FLASH_CTRL_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FLASH_CTRL_BASE",
+    "location": {
+      "column": "9",
+      "line": "135",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "FLASH_CTRL_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@7584@macro@SYSCTL_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SYSCTL_BASE",
+    "location": {
+      "column": "9",
+      "line": "136",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "SYSCTL_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@7647@macro@UDMA_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UDMA_BASE",
+    "location": {
+      "column": "9",
+      "line": "137",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "UDMA_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@7711@macro@CCM0_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CCM0_BASE",
+    "location": {
+      "column": "9",
+      "line": "138",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "CCM0_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@7791@macro@SHAMD5_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SHAMD5_BASE",
+    "location": {
+      "column": "9",
+      "line": "139",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "SHAMD5_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@7859@macro@AES_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "AES_BASE",
+    "location": {
+      "column": "9",
+      "line": "140",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "AES_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@8002@macro@DES_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DES_BASE",
+    "location": {
+      "column": "9",
+      "line": "142",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "DES_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@8141@macro@LCD0_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LCD0_BASE",
+    "location": {
+      "column": "9",
+      "line": "144",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "LCD0_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@8204@macro@ITM_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ITM_BASE",
+    "location": {
+      "column": "9",
+      "line": "145",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "ITM_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@8284@macro@DWT_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DWT_BASE",
+    "location": {
+      "column": "9",
+      "line": "146",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "DWT_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@8358@macro@FPB_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FPB_BASE",
+    "location": {
+      "column": "9",
+      "line": "147",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "FPB_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@8433@macro@NVIC_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_BASE",
+    "location": {
+      "column": "9",
+      "line": "148",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "NVIC_BASE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:hw_memmap.h@8512@macro@TPIU_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TPIU_BASE",
+    "location": {
+      "column": "9",
+      "line": "149",
+      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\TivaWare_C_Series-2.1.4.178\\inc\\hw_memmap.h"
+    },
+    "name": "TPIU_BASE",
     "origin": "user_include",
     "scope": null
   },
@@ -12465,59 +12661,409 @@
     "scope": null
   },
   {
-    "ID": "c:@LED_D1",
-    "What": "Variable",
+    "ID": "c:DLib_Defaults.h@1169@macro@_DLIB_DEFAULTS_H",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "LED_D1",
+    "display": "_DLIB_DEFAULTS_H",
     "location": {
       "column": "9",
-      "line": "10",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\Projects\\PWM_Project\\src\\PWM_Project.c"
+      "line": "31",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
     },
-    "name": "LED_D1",
-    "origin": "project_file",
+    "name": "_DLIB_DEFAULTS_H",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@F@SysTick_Handler",
-    "What": "Function",
+    "ID": "c:DLib_Defaults.h@3035@macro@_DLIB_FILE_DESCRIPTOR",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "void SysTick_Handler(void)",
+    "display": "_DLIB_FILE_DESCRIPTOR",
     "location": {
-      "column": "6",
-      "line": "12",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\Projects\\PWM_Project\\src\\PWM_Project.c"
+      "column": "11",
+      "line": "85",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
     },
-    "name": "SysTick_Handler",
-    "origin": "project_file",
+    "name": "_DLIB_FILE_DESCRIPTOR",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@F@main",
-    "What": "Function",
+    "ID": "c:DLib_Defaults.h@3448@macro@_DLIB_STDOUT_USES_STATIC_BUFFER",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "void main(void)",
+    "display": "_DLIB_STDOUT_USES_STATIC_BUFFER",
     "location": {
-      "column": "6",
-      "line": "19",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\Projects\\PWM_Project\\src\\PWM_Project.c"
+      "column": "11",
+      "line": "100",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
     },
-    "name": "main",
-    "origin": "project_file",
+    "name": "_DLIB_STDOUT_USES_STATIC_BUFFER",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:PWM_Project.c@489@F@main@i",
-    "What": "Variable",
+    "ID": "c:DLib_Defaults.h@4471@macro@_DLIB_FULL_LOCALE_SUPPORT",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "i",
+    "display": "_DLIB_FULL_LOCALE_SUPPORT",
     "location": {
-      "column": "7",
-      "line": "20",
-      "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\Projects\\PWM_Project\\src\\PWM_Project.c"
+      "column": "11",
+      "line": "127",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
     },
-    "name": "i",
-    "origin": "project_file",
+    "name": "_DLIB_FULL_LOCALE_SUPPORT",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@4649@macro@_DLIB_LOCALE_TABLE_MEMORY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_LOCALE_TABLE_MEMORY",
+    "location": {
+      "column": "11",
+      "line": "135",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_LOCALE_TABLE_MEMORY",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@5493@macro@_DLIB_FORMATTED_MULTIBYTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_FORMATTED_MULTIBYTE",
+    "location": {
+      "column": "11",
+      "line": "165",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_FORMATTED_MULTIBYTE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@6974@macro@_DLIB_PRINTF_MULTIBYTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_PRINTF_MULTIBYTE",
+    "location": {
+      "column": "11",
+      "line": "213",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_PRINTF_MULTIBYTE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@7889@macro@_DLIB_PRINTF_INT_TYPE_IS_INT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_PRINTF_INT_TYPE_IS_INT",
+    "location": {
+      "column": "11",
+      "line": "238",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_PRINTF_INT_TYPE_IS_INT",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@8492@macro@_DLIB_PRINTF_INT_TYPE_IS_LONG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_PRINTF_INT_TYPE_IS_LONG",
+    "location": {
+      "column": "11",
+      "line": "255",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_PRINTF_INT_TYPE_IS_LONG",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@9338@macro@_DLIB_PRINTF_CHAR_BY_CHAR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_PRINTF_CHAR_BY_CHAR",
+    "location": {
+      "column": "11",
+      "line": "277",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_PRINTF_CHAR_BY_CHAR",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@10025@macro@_DLIB_SCANF_MULTIBYTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_SCANF_MULTIBYTE",
+    "location": {
+      "column": "11",
+      "line": "301",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_SCANF_MULTIBYTE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@10673@macro@_DLIB_STRFTIME_MULTIBYTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_STRFTIME_MULTIBYTE",
+    "location": {
+      "column": "11",
+      "line": "321",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_STRFTIME_MULTIBYTE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@11257@macro@_DLIB_QSORT_USE_BUBBLE_SORT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_QSORT_USE_BUBBLE_SORT",
+    "location": {
+      "column": "11",
+      "line": "340",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_QSORT_USE_BUBBLE_SORT",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@11840@macro@_DLIB_RAND_USE_SIMPLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_RAND_USE_SIMPLE",
+    "location": {
+      "column": "11",
+      "line": "365",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_RAND_USE_SIMPLE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@12026@macro@_DLIB_DEBUG_BREAK_FUNCTION_ATTRIBUTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_DEBUG_BREAK_FUNCTION_ATTRIBUTE",
+    "location": {
+      "column": "11",
+      "line": "374",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_DEBUG_BREAK_FUNCTION_ATTRIBUTE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@12745@macro@_DLIB_DATA_ATTR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_DATA_ATTR",
+    "location": {
+      "column": "11",
+      "line": "390",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_DATA_ATTR",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@12836@macro@_DLIB_CONST_ATTR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_CONST_ATTR",
+    "location": {
+      "column": "13",
+      "line": "395",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_CONST_ATTR",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@13453@macro@_DLIB_MBSTATET_USES_UNSIGNED_LONG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_MBSTATET_USES_UNSIGNED_LONG",
+    "location": {
+      "column": "15",
+      "line": "421",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_MBSTATET_USES_UNSIGNED_LONG",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@13636@macro@_DLIB_TIME_USES_LONG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_TIME_USES_LONG",
+    "location": {
+      "column": "15",
+      "line": "429",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_TIME_USES_LONG",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@14183@macro@_DLIB_AEABI_DIFUNC_CONTAINS_OFFSETS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_AEABI_DIFUNC_CONTAINS_OFFSETS",
+    "location": {
+      "column": "13",
+      "line": "443",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_AEABI_DIFUNC_CONTAINS_OFFSETS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@14573@macro@_DLIB_ONLY_USE_CXA_FUNCTIONS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ONLY_USE_CXA_FUNCTIONS",
+    "location": {
+      "column": "13",
+      "line": "458",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_ONLY_USE_CXA_FUNCTIONS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@15142@macro@_DLIB_FAST_FMA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_FAST_FMA",
+    "location": {
+      "column": "11",
+      "line": "485",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_FAST_FMA",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@16042@macro@_DLIB_INCLUDE_DLMALLOC_ALTERNATIVE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_INCLUDE_DLMALLOC_ALTERNATIVE",
+    "location": {
+      "column": "13",
+      "line": "515",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_INCLUDE_DLMALLOC_ALTERNATIVE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@16406@macro@_DLIB_TIME_ALLOW_64",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_TIME_ALLOW_64",
+    "location": {
+      "column": "13",
+      "line": "537",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_TIME_ALLOW_64",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@16609@macro@_DLIB_TIME_USES_64_DEFAULT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_TIME_USES_64_DEFAULT",
+    "location": {
+      "column": "11",
+      "line": "551",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_TIME_USES_64_DEFAULT",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@16863@macro@_DLIB_ALLOW_LARGE_CONSTANT_TABLES_FOR_MATH",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ALLOW_LARGE_CONSTANT_TABLES_FOR_MATH",
+    "location": {
+      "column": "11",
+      "line": "562",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_ALLOW_LARGE_CONSTANT_TABLES_FOR_MATH",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@17263@macro@__WEAK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__WEAK",
+    "location": {
+      "column": "11",
+      "line": "579",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "__WEAK",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@17318@macro@__WEAK_DEFS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__WEAK_DEFS",
+    "location": {
+      "column": "11",
+      "line": "580",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "__WEAK_DEFS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ycheck.h@1402@macro@__AEABI_PORTABILITY_INTERNAL_LEVEL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__AEABI_PORTABILITY_INTERNAL_LEVEL",
+    "location": {
+      "column": "11",
+      "line": "42",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\ycheck.h"
+    },
+    "name": "__AEABI_PORTABILITY_INTERNAL_LEVEL",
+    "origin": "system_include",
     "scope": null
   },
   {
@@ -12587,20 +13133,6 @@
       "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\stdbool.h"
     },
     "name": "__bool_true_false_are_defined",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ycheck.h@1402@macro@__AEABI_PORTABILITY_INTERNAL_LEVEL",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__AEABI_PORTABILITY_INTERNAL_LEVEL",
-    "location": {
-      "column": "11",
-      "line": "42",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\ycheck.h"
-    },
-    "name": "__AEABI_PORTABILITY_INTERNAL_LEVEL",
     "origin": "system_include",
     "scope": null
   },
