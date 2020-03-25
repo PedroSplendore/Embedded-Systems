@@ -22,7 +22,8 @@ rule browsedata
 #Build steps
 build PWM_Project.pbi : index PWM_Project.xcl
 build system_TM4C1294_TW.pbi : index system_TM4C1294_TW.xcl
-build PWM_Project.pbd : link PWM_Project.pbi system_TM4C1294_TW.pbi
+build uartstdio.pbi : index uartstdio.xcl
+build PWM_Project.pbd : link PWM_Project.pbi system_TM4C1294_TW.pbi uartstdio.pbi
 build PWM_Project.pbw : browsedata PWM_Project.pbd
 
 
