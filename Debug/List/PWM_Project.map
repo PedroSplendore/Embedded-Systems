@@ -1,6 +1,10 @@
 ###############################################################################
 #
+<<<<<<< HEAD
 # IAR ELF Linker V8.50.1.245/W32 for ARM                  27/Mar/2020  15:44:11
+=======
+# IAR ELF Linker V8.50.1.245/W32 for ARM                  25/Mar/2020  10:56:26
+>>>>>>> 384e832edc53950c733e598ba3271ffad6c9a520
 # Copyright 2007-2020 IAR Systems AB.
 #
 #    Output file  =
@@ -10,7 +14,11 @@
 #        C:\FACUL\Embedded
 #        systems\EK-TM4C1294_IAR8\Projects\PWM_Project\Debug\List\PWM_Project.map
 #    Command line =
+<<<<<<< HEAD
 #        -f C:\Users\prspl\AppData\Local\Temp\EWE4CC.tmp ("C:\FACUL\Embedded
+=======
+#        -f C:\Users\prspl\AppData\Local\Temp\EWDBE8.tmp ("C:\FACUL\Embedded
+>>>>>>> 384e832edc53950c733e598ba3271ffad6c9a520
 #        systems\EK-TM4C1294_IAR8\TivaWare_C_Series-2.1.4.178\driverlib\ewarm\Exe\driverlib.a"
 #        "C:\FACUL\Embedded
 #        systems\EK-TM4C1294_IAR8\Projects\PWM_Project\Debug\Obj\PWM_Project.o"
@@ -65,12 +73,17 @@ define block HEAP with size = 64K, alignment = 8 { };
   .intvec          ro code          0x0   0x3c0  startup_TM4C1294.o [1]
                                 - 0x3c0   0x3c0
 
+<<<<<<< HEAD
 "P1":                                    0x1344
+=======
+"P1":                                    0x12ec
+>>>>>>> 384e832edc53950c733e598ba3271ffad6c9a520
   .text            ro code        0x3c0   0x518  uartstdio.o [1]
   .text            ro code        0x8d8    0xec  interrupt.o [3]
   .text            ro code        0x9c4   0x114  uart.o [3]
   .text            ro code        0xad8   0x2ac  sysctl.o [3]
   .text            ro code        0xd84    0x10  cpu.o [3]
+<<<<<<< HEAD
   .text            ro code        0xd94   0x2c8  PWM_Project.o [1]
   .text            ro code       0x105c   0x1d4  gpio.o [3]
   .text            ro code       0x1230    0x28  systick.o [3]
@@ -104,6 +117,40 @@ define block HEAP with size = 64K, alignment = 8 { };
   .rodata          const         0x1700     0x4  uartstdio.o [1]
   .rodata          const         0x1704     0x0  zero_init3.o [4]
                                - 0x1704  0x1344
+=======
+  .text            ro code        0xd94   0x28c  PWM_Project.o [1]
+  .text            ro code       0x1020   0x1d4  gpio.o [3]
+  .text            ro code       0x11f4    0x28  systick.o [3]
+  .rodata          const         0x121c   0x1b0  sysctl.o [3]
+  .rodata          const         0x13cc    0x90  gpio.o [3]
+  .rodata          const         0x145c    0x6c  sysctl.o [3]
+  .text            ro code       0x14c8    0x3a  zero_init3.o [4]
+  .text            ro code       0x1502     0x2  startup_TM4C1294.o [1]
+  .rodata          const         0x1504    0x30  sysctl.o [3]
+  .text            ro code       0x1534    0x2c  system_TM4C1294_TW.o [1]
+  .text            ro code       0x1560    0x28  data_init.o [4]
+  .iar.init_table  const         0x1588    0x10  - Linker created -
+  .text            ro code       0x1598    0x1e  cmain.o [4]
+  .text            ro code       0x15b6     0x4  low_level_init.o [2]
+  .text            ro code       0x15ba     0x4  exit.o [2]
+  .text            ro code       0x15c0     0xa  cexit.o [4]
+  .text            ro code       0x15cc    0x14  exit.o [5]
+  .rodata          const         0x15e0    0x1c  PWM_Project.o [1]
+  .rodata          const         0x15fc    0x1c  PWM_Project.o [1]
+  .rodata          const         0x1618    0x14  uartstdio.o [1]
+  .text            ro code       0x162c    0x14  startup_TM4C1294.o [1]
+  .rodata          const         0x1640    0x10  PWM_Project.o [1]
+  .rodata          const         0x1650    0x10  PWM_Project.o [1]
+  .rodata          const         0x1660    0x10  PWM_Project.o [1]
+  .rodata          const         0x1670     0xc  uartstdio.o [1]
+  .rodata          const         0x167c     0xc  uartstdio.o [1]
+  .rodata          const         0x1688     0xc  uartstdio.o [1]
+  .text            ro code       0x1694     0xc  cstartup_M.o [4]
+  .rodata          const         0x16a0     0x8  uartstdio.o [1]
+  .rodata          const         0x16a8     0x4  uartstdio.o [1]
+  .rodata          const         0x16ac     0x0  zero_init3.o [4]
+                               - 0x16ac  0x12ec
+>>>>>>> 384e832edc53950c733e598ba3271ffad6c9a520
 
 "P2", part 1 of 2:                        0x49c
   .bss             zero     0x2000'0000   0x400  uartstdio.o [1]
@@ -128,7 +175,11 @@ Unused ranges:
 
          From           To      Size
          ----           --      ----
+<<<<<<< HEAD
        0x1704     0xf'ffff  0xf'e8fc
+=======
+       0x16ac     0xf'ffff  0xf'e954
+>>>>>>> 384e832edc53950c733e598ba3271ffad6c9a520
   0x2000'84a0  0x2003'ffff  0x3'7b60
 
 
@@ -155,12 +206,20 @@ command line/config:
     Total:
 
 C:\FACUL\Embedded systems\EK-TM4C1294_IAR8\Projects\PWM_Project\Debug\Obj: [1]
+<<<<<<< HEAD
     PWM_Project.o             712      132
+=======
+    PWM_Project.o             652      104
+>>>>>>> 384e832edc53950c733e598ba3271ffad6c9a520
     startup_TM4C1294.o        982
     system_TM4C1294_TW.o       44                 4
     uartstdio.o             1'304       68    1'178
     -----------------------------------------------
+<<<<<<< HEAD
     Total:                  3'042      200    1'182
+=======
+    Total:                  2'982      172    1'182
+>>>>>>> 384e832edc53950c733e598ba3271ffad6c9a520
 
 dl7M_tln.a: [2]
     exit.o                      4
@@ -195,7 +254,11 @@ shb_l.a: [5]
     Gaps                        4
     Linker created                      16   32'768
 ---------------------------------------------------
+<<<<<<< HEAD
     Grand Total:            4'944      948   33'950
+=======
+    Grand Total:            4'884      920   33'950
+>>>>>>> 384e832edc53950c733e598ba3271ffad6c9a520
 
 
 *******************************************************************************
@@ -204,13 +267,20 @@ shb_l.a: [5]
 
 Entry                       Address   Size  Type      Object
 -----                       -------   ----  ----      ------
+<<<<<<< HEAD
 .iar.init_table$$Base        0x15c4          --   Gb  - Linker created -
 .iar.init_table$$Limit       0x15d4          --   Gb  - Linker created -
 ?main                        0x15d5         Code  Gb  cmain.o [4]
+=======
+.iar.init_table$$Base        0x1588          --   Gb  - Linker created -
+.iar.init_table$$Limit       0x1598          --   Gb  - Linker created -
+?main                        0x1599         Code  Gb  cmain.o [4]
+>>>>>>> 384e832edc53950c733e598ba3271ffad6c9a520
 CPUcpsid                      0xd85    0x8  Code  Gb  cpu.o [3]
 CPUcpsie                      0xd8d    0x8  Code  Gb  cpu.o [3]
 CSTACK$$Base            0x2000'04a0          --   Gb  - Linker created -
 CSTACK$$Limit           0x2000'84a0          --   Gb  - Linker created -
+<<<<<<< HEAD
 GPIODirModeSet               0x105d   0x28  Code  Gb  gpio.o [3]
 GPIOInicialization            0xded  0x126  Code  Gb  PWM_Project.o [1]
 GPIOPadConfigSet             0x1085  0x102  Code  Gb  gpio.o [3]
@@ -220,25 +290,50 @@ GPIOPinTypeGPIOInput         0x119b   0x14  Code  Gb  gpio.o [3]
 GPIOPinTypeGPIOOutput        0x11af    0xa  Code  Gb  gpio.o [3]
 GPIOPinTypeUART              0x11d3   0x14  Code  Gb  gpio.o [3]
 GPIOPinWrite                 0x118f    0x8  Code  Gb  gpio.o [3]
+=======
+GPIODirModeSet               0x1021   0x28  Code  Gb  gpio.o [3]
+GPIOInicialization            0xded  0x126  Code  Gb  PWM_Project.o [1]
+GPIOPadConfigSet             0x1049  0x102  Code  Gb  gpio.o [3]
+GPIOPinConfigure             0x11b3   0x36  Code  Gb  gpio.o [3]
+GPIOPinRead                  0x114b    0x8  Code  Gb  gpio.o [3]
+GPIOPinTypeGPIOInput         0x115f   0x14  Code  Gb  gpio.o [3]
+GPIOPinTypeGPIOOutput        0x1173    0xa  Code  Gb  gpio.o [3]
+GPIOPinTypeUART              0x1197   0x14  Code  Gb  gpio.o [3]
+GPIOPinWrite                 0x1153    0x8  Code  Gb  gpio.o [3]
+>>>>>>> 384e832edc53950c733e598ba3271ffad6c9a520
 IntDisable                    0x939   0x46  Code  Gb  interrupt.o [3]
 IntEnable                     0x8f1   0x46  Code  Gb  interrupt.o [3]
 IntMasterDisable              0x8e1    0x6  Code  Gb  interrupt.o [3]
 IntMasterEnable               0x8d9    0x8  Code  Gb  interrupt.o [3]
 IsBufferEmpty                 0x3dd   0x12  Code  Lc  uartstdio.o [1]
 IsBufferFull                  0x3c1   0x1c  Code  Lc  uartstdio.o [1]
+<<<<<<< HEAD
 Region$$Table$$Base          0x15c4          --   Gb  - Linker created -
 Region$$Table$$Limit         0x15d4          --   Gb  - Linker created -
+=======
+Region$$Table$$Base          0x1588          --   Gb  - Linker created -
+Region$$Table$$Limit         0x1598          --   Gb  - Linker created -
+>>>>>>> 384e832edc53950c733e598ba3271ffad6c9a520
 SysCtlClockFreqSet            0xb43  0x1fc  Code  Gb  sysctl.o [3]
 SysCtlPeripheralEnable        0xb25    0x8  Code  Gb  sysctl.o [3]
 SysCtlPeripheralPresent
                               0xaf9    0xa  Code  Gb  sysctl.o [3]
 SysCtlPeripheralReady         0xb03    0x8  Code  Gb  sysctl.o [3]
+<<<<<<< HEAD
 SysTickEnable                0x1231    0xc  Code  Gb  systick.o [3]
 SysTickIntEnable             0x123d    0xc  Code  Gb  systick.o [3]
 SysTickPeriodSet             0x1249    0x8  Code  Gb  systick.o [3]
 SysTick_Handler               0xd95    0x2  Code  Gb  PWM_Project.o [1]
 SystemCoreClock         0x2000'049c    0x4  Data  Gb  system_TM4C1294_TW.o [1]
 SystemInit                   0x1571   0x1a  Code  Gb  system_TM4C1294_TW.o [1]
+=======
+SysTickEnable                0x11f5    0xc  Code  Gb  systick.o [3]
+SysTickIntEnable             0x1201    0xc  Code  Gb  systick.o [3]
+SysTickPeriodSet             0x120d    0x8  Code  Gb  systick.o [3]
+SysTick_Handler               0xd95    0x2  Code  Gb  PWM_Project.o [1]
+SystemCoreClock         0x2000'049c    0x4  Data  Gb  system_TM4C1294_TW.o [1]
+SystemInit                   0x1535   0x1a  Code  Gb  system_TM4C1294_TW.o [1]
+>>>>>>> 384e832edc53950c733e598ba3271ffad6c9a520
 UART0_Handler                 0xde5    0x8  Code  Gb  PWM_Project.o [1]
 UARTCharGetNonBlocking        0xa8b   0x14  Code  Gb  uart.o [3]
 UARTCharPutNonBlocking        0xa9f   0x16  Code  Gb  uart.o [3]
@@ -267,6 +362,7 @@ _SysCtlMemTimingGet           0xad9   0x20  Code  Lc  sysctl.o [3]
 __Vectors                       0x0          --   Gb  startup_TM4C1294.o [1]
 __Vectors_End                 0x3c0         Data  Gb  startup_TM4C1294.o [1]
 __Vectors_Size {Abs}          0x3c0          --   Gb  startup_TM4C1294.o [1]
+<<<<<<< HEAD
 __cmain                      0x15d5         Code  Gb  cmain.o [4]
 __exit                       0x1609   0x14  Code  Gb  exit.o [5]
 __iar_data_init3             0x159d   0x28  Code  Gb  data_init.o [4]
@@ -296,11 +392,46 @@ g_ui32PortNum           0x2000'0494    0x4  Data  Lc  uartstdio.o [1]
 g_ui32UARTBase               0x16c8    0xc  Data  Lc  uartstdio.o [1]
 g_ui32UARTInt                0x16d4    0xc  Data  Lc  uartstdio.o [1]
 g_ui32UARTPeriph             0x16e0    0xc  Data  Lc  uartstdio.o [1]
+=======
+__cmain                      0x1599         Code  Gb  cmain.o [4]
+__exit                       0x15cd   0x14  Code  Gb  exit.o [5]
+__iar_data_init3             0x1561   0x28  Code  Gb  data_init.o [4]
+__iar_init_vfp               0x1635         Code  Wk  startup_TM4C1294.o [1]
+__iar_program_start          0x1695         Code  Gb  cstartup_M.o [4]
+__iar_zero_init3             0x14c9   0x3a  Code  Gb  zero_init3.o [4]
+__low_level_init             0x15b7    0x4  Code  Gb  low_level_init.o [2]
+__vector_table                  0x0         Data  Gb  startup_TM4C1294.o [1]
+__vector_table_0x1c            0x1c         Data  Gb  startup_TM4C1294.o [1]
+_call_main                   0x15a5         Code  Gb  cmain.o [4]
+_exit                        0x15c1         Code  Gb  cexit.o [4]
+_main                        0x15b3         Code  Gb  cmain.o [4]
+exit                         0x15bb    0x4  Code  Gb  exit.o [2]
+g_bDisableEcho          0x2000'0498    0x1  Data  Lc  uartstdio.o [1]
+g_pcHex                      0x16a8    0x4  Data  Lc  uartstdio.o [1]
+g_pcUARTRxBuffer        0x2000'0400   0x80  Data  Lc  uartstdio.o [1]
+g_pcUARTTxBuffer        0x2000'0000  0x400  Data  Lc  uartstdio.o [1]
+g_pppui32XTALtoVCO           0x121c  0x1b0  Data  Lc  sysctl.o [3]
+g_pui32Dii16Regs              0x9b0   0x14  Data  Lc  interrupt.o [3]
+g_pui32EnRegs                 0x99c   0x14  Data  Lc  interrupt.o [3]
+g_pui32GPIOBaseAddrs         0x13cc   0x90  Data  Lc  gpio.o [3]
+g_pui32VCOFrequencies         0xd7c    0x8  Data  Lc  sysctl.o [3]
+g_pui32Xtals                 0x145c   0x6c  Data  Lc  sysctl.o [3]
+g_sXTALtoMEMTIM              0x1504   0x30  Data  Lc  sysctl.o [3]
+g_ui32Base              0x2000'0490    0x4  Data  Lc  uartstdio.o [1]
+g_ui32PortNum           0x2000'0494    0x4  Data  Lc  uartstdio.o [1]
+g_ui32UARTBase               0x1670    0xc  Data  Lc  uartstdio.o [1]
+g_ui32UARTInt                0x167c    0xc  Data  Lc  uartstdio.o [1]
+g_ui32UARTPeriph             0x1688    0xc  Data  Lc  uartstdio.o [1]
+>>>>>>> 384e832edc53950c733e598ba3271ffad6c9a520
 g_ui32UARTRxReadIndex   0x2000'048c    0x4  Data  Lc  uartstdio.o [1]
 g_ui32UARTRxWriteIndex  0x2000'0488    0x4  Data  Lc  uartstdio.o [1]
 g_ui32UARTTxReadIndex   0x2000'0484    0x4  Data  Lc  uartstdio.o [1]
 g_ui32UARTTxWriteIndex  0x2000'0480    0x4  Data  Lc  uartstdio.o [1]
+<<<<<<< HEAD
 main                          0xf13   0xf8  Code  Gb  PWM_Project.o [1]
+=======
+main                          0xf13   0xc2  Code  Gb  PWM_Project.o [1]
+>>>>>>> 384e832edc53950c733e598ba3271ffad6c9a520
 
 
 [1] = C:\FACUL\Embedded systems\EK-TM4C1294_IAR8\Projects\PWM_Project\Debug\Obj
@@ -309,8 +440,13 @@ main                          0xf13   0xf8  Code  Gb  PWM_Project.o [1]
 [4] = rt7M_tl.a
 [5] = shb_l.a
 
+<<<<<<< HEAD
    4'944 bytes of readonly  code memory
      948 bytes of readonly  data memory
+=======
+   4'884 bytes of readonly  code memory
+     920 bytes of readonly  data memory
+>>>>>>> 384e832edc53950c733e598ba3271ffad6c9a520
   33'950 bytes of readwrite data memory
 
 Errors: none

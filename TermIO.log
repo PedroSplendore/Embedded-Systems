@@ -702,6 +702,7 @@ gpio Q 1 64
 
  << Logging of terminal I/O resumes >> 
 
+<<<<<<< HEAD
 
 
  << Logging of terminal I/O resumes >> 
@@ -854,3 +855,5 @@ gpio Q 1 64
 
  << Logging of terminal I/O resumes >> 
 
+=======
+>>>>>>> 384e832edc53950c733e598ba3271ffad6c9a520

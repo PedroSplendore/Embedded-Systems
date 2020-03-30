@@ -51,6 +51,7 @@ void GPIOInicialization(void){
   GPIOPinWrite(GPIO_PORTN_BASE, GPIO_PIN_0 | GPIO_PIN_1, 0); // LEDs D1 e D2 apagados
   GPIOPadConfigSet(GPIO_PORTN_BASE, GPIO_PIN_0 | GPIO_PIN_1, GPIO_STRENGTH_12MA, GPIO_PIN_TYPE_STD);
   ///GPIO B/////////////////////////////////
+<<<<<<< HEAD
 //  SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOB);
 //  while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOB)); 
 //  GPIOPinTypeGPIOOutput(GPIO_PORTB_BASE, GPIO_PIN_4 | GPIO_PIN_5); 
@@ -74,6 +75,31 @@ void GPIOInicialization(void){
   GPIOPinTypeGPIOOutput(GPIO_PORTA_BASE, GPIO_PIN_6 | GPIO_PIN_7); 
   GPIOPinWrite(GPIO_PORTA_BASE, GPIO_PIN_6, GPIO_PIN_6); 
   GPIOPinWrite(GPIO_PORTA_BASE, GPIO_PIN_7, GPIO_PIN_7); 
+=======
+//  SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOB); // Habilita GPIO N (LED D1 = PN1, LED D2 = PN0)
+//  while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOB)); // Aguarda final da habilitação
+//  GPIOPinTypeGPIOOutput(GPIO_PORTB_BASE, GPIO_PIN_4 | GPIO_PIN_5); // LEDs D3 e D4 como saída
+//  GPIOPinWrite(GPIO_PORTB_BASE, GPIO_PIN_4, 1); // LEDs D3 e D4 apagados  
+  ///GPIO M////////////////////////////////
+  SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOM); // Habilita GPIO N (LED D1 = PN1, LED D2 = PN0)
+  while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOM)); // Aguarda final da habilitação
+  GPIOPinTypeGPIOOutput(GPIO_PORTM_BASE, GPIO_PIN_6); // LEDs D3 e D4 como saída
+  GPIOPinWrite(GPIO_PORTM_BASE, GPIO_PIN_6, GPIO_PIN_6); // LEDs D3 e D4 apagados
+  //GPIOPadConfigSet(GPIO_PORTM_BASE, GPIO_PIN_6, GPIO_STRENGTH_12MA, GPIO_PIN_TYPE_STD);
+  ///GPIO Q////////////////////////////////
+  SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOQ); // Habilita GPIO N (LED D1 = PN1, LED D2 = PN0)
+  while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOQ)); // Aguarda final da habilitação
+  GPIOPinTypeGPIOOutput(GPIO_PORTQ_BASE, GPIO_PIN_0 | GPIO_PIN_1); // LEDs D3 e D4 como saída
+  GPIOPinWrite(GPIO_PORTQ_BASE, GPIO_PIN_0, GPIO_PIN_0); // LEDs D3 e D4 apagados
+  GPIOPinWrite(GPIO_PORTQ_BASE, GPIO_PIN_1, GPIO_PIN_1); // LEDs D3 e D4 apagados
+ // GPIOPadConfigSet(GPIO_PORTQ_BASE, GPIO_PIN_0 | GPIO_PIN_1 , GPIO_STRENGTH_12MA, GPIO_PIN_TYPE_STD);  
+  ///GPIO A///////////////////////////////
+  SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOA); // Habilita GPIO N (LED D1 = PN1, LED D2 = PN0)
+  while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOA)); // Aguarda final da habilitação
+  GPIOPinTypeGPIOOutput(GPIO_PORTA_BASE, GPIO_PIN_6 | GPIO_PIN_7); // LEDs D3 e D4 como saída
+  GPIOPinWrite(GPIO_PORTA_BASE, GPIO_PIN_6, GPIO_PIN_6); // LEDs D3 e D4 apagados
+  GPIOPinWrite(GPIO_PORTA_BASE, GPIO_PIN_7, GPIO_PIN_7); // LEDs D3 e D4 apagados
+>>>>>>> 384e832edc53950c733e598ba3271ffad6c9a520
  // GPIOPadConfigSet(GPIO_PORTA_BASE, GPIO_PIN_6 | GPIO_PIN_7 , GPIO_STRENGTH_12MA, GPIO_PIN_TYPE_STD);
   /// GPIO F/////////////////////////////
   SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOF); // Habilita GPIO F (LED D3 = PF4, LED D4 = PF0)
@@ -98,7 +124,11 @@ void main(void){
   SysTickIntEnable();
   SysTickEnable();
 
+<<<<<<< HEAD
   int i, ToLog, PWM, Previous_State;
+=======
+  int i, ToLog, PWM, j;
+>>>>>>> 384e832edc53950c733e598ba3271ffad6c9a520
   GPIOPinWrite(GPIO_PORTN_BASE, GPIO_PIN_1, GPIO_PIN_1); // Acende LED D1
   //LED D1 - PN1
   //LED D2 - PN0
@@ -110,6 +140,7 @@ void main(void){
   UARTprintf ("gpio Q 0 %d\n", ToLog);
   ToLog = (GPIOPinRead(GPIO_PORTA_BASE, GPIO_PIN_6));
   UARTprintf ("gpio A 6 %d\n", ToLog);
+<<<<<<< HEAD
   PWM = 500;
   UARTprintf("Starting PWM value = %d%%\n", PWM/10);
   while(1){
@@ -118,7 +149,8 @@ void main(void){
         GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_0, GPIO_PIN_0); // Apaga LED D4
       else if (i==PWM)
         GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_0, 0); // Acende LED D4
-      Previous_State = ((GPIOPinRead(GPIO_PORTJ_BASE, GPIO_PIN_1)) && (GPIOPinRead(GPIO_PORTJ_BASE, GPIO_PIN_0)));
+      if (!Previous_State)
+        Previous_State = ((GPIOPinRead(GPIO_PORTJ_BASE, GPIO_PIN_1)) && (GPIOPinRead(GPIO_PORTJ_BASE, GPIO_PIN_0)));
       if (Previous_State){
         if (GPIOPinRead(GPIO_PORTJ_BASE, GPIO_PIN_1) == 0){ //testa se o SW2 foi pressionado
           if(PWM!=1000){
@@ -138,5 +170,32 @@ void main(void){
     }// for
     i=0;    
    // UARTprintf("%d", Previous_State);
+=======
+ PWM = 500;
+  while(1){
+    for (i=0;i<1001;i++){
+      if(i==0)
+        GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_0, GPIO_PIN_0); // Acende LED D4
+      else if (i==PWM)
+        GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_0, 0); // Apaga LED D4
+      if (GPIOPinRead(GPIO_PORTJ_BASE, GPIO_PIN_1) == 0){
+        if(PWM!=1000){
+          UARTprintf("SW2 pressed and PWM = %d\n", PWM);
+          PWM += 100;
+         // for(j=0;j<100000;j++){} //para tentar ler somente 1 vez o botao
+        }
+      }   
+      if ((GPIOPinRead(GPIO_PORTJ_BASE, GPIO_PIN_0) == 0)){
+        if (PWM!=100){
+          UARTprintf("SW1 pressed and PWM = %d\n", PWM);
+          PWM -= 100;
+         // for(j=0;j<100000;j++){} //para tentar ler somente 1 vez o botao
+        }
+        j=0;
+      }
+//      if(GPIOPinRead(GPIO_PORTJ_BASE, GPIO_PIN_1) == GPIO_PIN_1) // Testa estado do push-button SW2
+    }// for
+    i=0;    
+>>>>>>> 384e832edc53950c733e598ba3271ffad6c9a520
   } // while
 } // main
