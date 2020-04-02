@@ -15882,7 +15882,7 @@
     "display": "LED_D1",
     "location": {
       "column": "9",
-      "line": "19",
+      "line": "23",
       "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\Projects\\PWM_Project\\src\\PWM_Project.c"
     },
     "name": "LED_D1",
@@ -15896,7 +15896,7 @@
     "display": "void UARTStdioIntHandler(void)",
     "location": {
       "column": "13",
-      "line": "21",
+      "line": "25",
       "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\Projects\\PWM_Project\\src\\PWM_Project.c"
     },
     "name": "UARTStdioIntHandler",
@@ -15910,7 +15910,7 @@
     "display": "void SysTick_Handler(void)",
     "location": {
       "column": "6",
-      "line": "23",
+      "line": "27",
       "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\Projects\\PWM_Project\\src\\PWM_Project.c"
     },
     "name": "SysTick_Handler",
@@ -15924,7 +15924,7 @@
     "display": "void UARTInit(void)",
     "location": {
       "column": "6",
-      "line": "28",
+      "line": "32",
       "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\Projects\\PWM_Project\\src\\PWM_Project.c"
     },
     "name": "UARTInit",
@@ -15938,7 +15938,7 @@
     "display": "void UART0_Handler(void)",
     "location": {
       "column": "6",
-      "line": "46",
+      "line": "50",
       "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\Projects\\PWM_Project\\src\\PWM_Project.c"
     },
     "name": "UART0_Handler",
@@ -15952,7 +15952,7 @@
     "display": "void GPIOInicialization(void)",
     "location": {
       "column": "6",
-      "line": "50",
+      "line": "54",
       "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\Projects\\PWM_Project\\src\\PWM_Project.c"
     },
     "name": "GPIOInicialization",
@@ -15966,7 +15966,7 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "95",
+      "line": "100",
       "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\Projects\\PWM_Project\\src\\PWM_Project.c"
     },
     "name": "main",
@@ -15974,13 +15974,13 @@
     "scope": null
   },
   {
-    "ID": "c:PWM_Project.c@4605@F@main@i",
+    "ID": "c:PWM_Project.c@5186@F@main@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "7",
-      "line": "104",
+      "line": "109",
       "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\Projects\\PWM_Project\\src\\PWM_Project.c"
     },
     "name": "i",
@@ -15988,13 +15988,13 @@
     "scope": null
   },
   {
-    "ID": "c:PWM_Project.c@4605@F@main@ToLog",
+    "ID": "c:PWM_Project.c@5186@F@main@ToLog",
     "What": "Variable",
     "defdec": "Dec",
     "display": "ToLog",
     "location": {
       "column": "10",
-      "line": "104",
+      "line": "109",
       "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\Projects\\PWM_Project\\src\\PWM_Project.c"
     },
     "name": "ToLog",
@@ -16002,13 +16002,13 @@
     "scope": null
   },
   {
-    "ID": "c:PWM_Project.c@4605@F@main@PWM",
+    "ID": "c:PWM_Project.c@5186@F@main@PWM",
     "What": "Variable",
     "defdec": "Dec",
     "display": "PWM",
     "location": {
       "column": "17",
-      "line": "104",
+      "line": "109",
       "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\Projects\\PWM_Project\\src\\PWM_Project.c"
     },
     "name": "PWM",
@@ -16016,13 +16016,13 @@
     "scope": null
   },
   {
-    "ID": "c:PWM_Project.c@4605@F@main@Previous_State",
+    "ID": "c:PWM_Project.c@5186@F@main@Previous_State",
     "What": "Variable",
     "defdec": "Dec",
     "display": "Previous_State",
     "location": {
       "column": "22",
-      "line": "104",
+      "line": "109",
       "path": "C:\\FACUL\\Embedded systems\\EK-TM4C1294_IAR8\\Projects\\PWM_Project\\src\\PWM_Project.c"
     },
     "name": "Previous_State",
